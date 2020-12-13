@@ -6,3 +6,4 @@ You can download the .zip in the "Releases" section so that you may install the 
 
 If you have issues finding the "Releases" section on GitHub, you can get to it by following this link:
 https://github.com/LokeYourLord/Extremely-Efficient-Structures/releases
+![alt text](https://github.com/LokeYourLord/Extremely-Efficient-Structures/blob/Ver1.5/preview.png)
