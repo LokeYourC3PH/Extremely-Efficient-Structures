@@ -1,0 +1,20 @@
+{
+	"type": "Conveyor",
+	"name": "EES Conveyor",
+	"description": "A hilariously fast Conveyor Belt made of Copper.",
+	"destructible": false,
+	"rebuildable": true,
+	"targetable": false,
+	"requirements": [
+		{"item": "copper", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 2.24,
+	"displayedSpeed": 67.2,
+	"research": {
+	  parent: ees-drill
+	  requirements: [
+	    copper/0
+	  ]
+	}
+}

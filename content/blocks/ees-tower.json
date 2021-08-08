@@ -1,0 +1,23 @@
+{
+	"name": "EES Node Tower",
+	"description": "A tower with insane range and connection limits.",
+	"type": "PowerNode",
+	"size": 1,
+	"maxNodes": 500,
+	"laserRange": 200,
+	"destructible": false,
+	"rebuildable": true,
+	"targetable": false,
+	"emitLight": true,
+	"lightRadius": 200,
+	"requirements": [
+		{ "item": "copper", "amount": 1 }
+	],
+	"category": "power",
+	"research": {
+	  parent: ees-generator
+	  requirements: [
+	    copper/0
+	  ]
+	}
+}

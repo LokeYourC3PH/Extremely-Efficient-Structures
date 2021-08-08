@@ -1,0 +1,22 @@
+{
+	"type": "SolarGenerator",
+	"name": "EES Generator",
+	"description": "Produces an insane amount of Power.",
+	"size": 1,
+	"hasPower": true,
+	"itemDuration": 1000000,
+	"powerProduction": 1000000,
+	"destructible": false,
+	"rebuildable": true,
+	"targetable": false,
+	"requirements": [
+		{ "item": "copper", "amount": 1 }
+	],
+	"category": "power",
+	"research": {
+	  parent: core-shard
+	  requirements: [
+	    copper/0
+	  ]
+	}
+}
