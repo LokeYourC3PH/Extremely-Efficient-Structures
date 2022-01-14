@@ -9,7 +9,7 @@
 		{"item": "copper", "amount": 1}
 	],
 	"category": "distribution",
-	"speed": 2.24,
+	"speed": 67.2,
 	"displayedSpeed": 67.2,
 	"research": {
 	  parent: ees-drill
