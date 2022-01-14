@@ -11,6 +11,7 @@
 	"category": "distribution",
 	"speed": 67.2,
 	"displayedSpeed": 67.2,
+	"itemCapacity": 100,
 	"research": {
 	  parent: ees-drill
 	  requirements: [
