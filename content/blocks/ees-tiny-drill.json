@@ -1,0 +1,26 @@
+{
+	"name": "EES Tiny Drill",
+	"description": "A drill for reaching the spaces its larger counterpart can't reach, at the cost of worse performance.",
+	"type": "Drill",
+	"size": 1,
+	"tier": 6,
+	"destructible": false,
+	"rebuildable": true,
+	"targetable": false,
+	"drillTime": 0.05,
+	"hardnessDrillMultiplier": 0,
+	"warmupSpeed": 2,
+	"consumes": {
+		"power": 0.000001
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 1 }
+	],
+	"category": "production",
+	"research": {
+	  parent: ees-drill
+	  requirements: [
+	    copper/0
+	  ]
+	}
+}
